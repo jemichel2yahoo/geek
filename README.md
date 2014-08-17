@@ -1,4 +1,4 @@
 geek
 ====
 
-eeky toy programs
+A collection of geeky toy programs
