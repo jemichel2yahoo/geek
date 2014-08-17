@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Fact</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY>
+
+<H2>Factorial in JavaScript</H2>
+
+<P><SCRIPT language="JavaScript">        <!--
+            function Fact(n)
+            {
+                if (n <= 1) {
+                    return 1;
+                } else {
+                    return n*Fact(n - 1);
+                }
+            }
+ 
+            for (i = 0; i < 255; i++) {
+                document.write("<P>" + Fact(i) + "<\P>");
+            }
+        //-->
+ </SCRIPT></P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,9 @@
+hi - Configurable greeting program
+
+Hi reads its configuration file /etc/hi.conf which accepts the following
+parameters:
+
+	verbose - accepable values are "y" or "n"; if "y" then verbose output
+	is produced
+
+Hi outputs a greeting.

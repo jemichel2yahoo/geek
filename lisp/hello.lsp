@@ -1,0 +1,6 @@
+(write-string "Enter your name: ")
+(setq name (read-line))
+(write-string "Hello ")
+(write-string name)
+(write-line "!")
+(exit 0)

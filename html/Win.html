@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>Silly</title>
+    </head>
+    
+    <body>
+        <script language="JavaScript">
+        <!--
+            function windowOpener() {
+                msgWindow=window.open("","displayWindow","menubar=yes,resizeable=yes");
+                msgWindow.document.write("<HEAD><TITLE>Message window</TITLE></HEAD>");
+                msgWindow.document.write("<CENTER><BIG><B>Hello, world!</B></BIG></CENTER>");
+            }
+
+            function Press_OnClick()
+            {
+                if (msgWindow != null) {
+                    msgWindow.close();
+                    msgWindow = null;
+                } else {
+                    windowOpener();
+                }
+            }
+
+            var msgWindow = null;
+        //-->
+        </script>
+        
+        <p>
+        
+        <h2>Hello Window JavaScript Sample</h2>
+   
+        <form Name="Form1">
+            <input type=button value="Open/Close child window"
+                name="BtnHello" OnClick="Press_OnClick()">
+        </form>
+    </body>
+</html>
